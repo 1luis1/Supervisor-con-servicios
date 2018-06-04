@@ -10,7 +10,7 @@ services:
      - red
 
   apache:
-    image: andresvega565/centos-httpd-php
+    image: 1luis1/httpd-php
     container_name: httpd
     ports:
       - "8080:80"
